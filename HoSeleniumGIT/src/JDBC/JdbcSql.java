@@ -14,7 +14,7 @@ public class JdbcSql
 	public static void main(String[] args) throws SQLException 
 	{
 		String url = "jdbc:mysql://Localhost:3306/test";
-		String un = "ROOT";
+		String un = "root";
 		String pwd = "ROOT";
 		Connection con = DriverManager.getConnection(url,un,pwd);
 		Statement stmt = con.createStatement ();
